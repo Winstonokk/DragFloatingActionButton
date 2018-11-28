@@ -3,6 +3,27 @@
 
 ![image](https://github.com/wangfeng19930909/DragFloatingActionButton/blob/master/screenshot/1543217567144_video.gif)
 
+使用步骤
+=================================== 
+
+***step1:
+
+在gradle中直接引用
+>>在你项目根目录的build.gradle中添加
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+   
+***step2:
+
+在module下的build.gradle中添加
+
+dependencies {
+	        implementation 'com.github.wangfeng19930909:DragFloatingActionButton:v1.0.0'
+	}
 
 MIT License
 =================================== 
