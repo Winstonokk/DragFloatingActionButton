@@ -28,11 +28,15 @@ step1:
 step2:
 -------
 
-在module下的build.gradle中添加
+在module下的build.gradle中添加，由于库中使用的appcompat-v7是28.0.0，如果不一样则可能会冲突。
 
 		dependencies {
 		
-	        implementation 'com.github.wangfeng19930909:DragFloatingActionButton:v1.0.0'
+	        	implementation ('com.github.wangfeng19930909:DragFloatingActionButton:v1.0.0'){
+			
+        			exclude module: 'appcompat-v7'
+				
+    			}
 		
 		}
 
