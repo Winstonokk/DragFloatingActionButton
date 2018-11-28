@@ -10,7 +10,8 @@ step1:
 -------
 
 在gradle中直接引用
->>在你项目根目录的build.gradle中添加
+
+在你项目根目录的build.gradle中添加
 
 	allprojects {
 	
