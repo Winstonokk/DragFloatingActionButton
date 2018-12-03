@@ -39,6 +39,29 @@ step2:
     			}
 		
 		}
+		
+step3:
+-------
+
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.barnettwong.dragfloatactionbuttonlibrary.view.DragFloatActionButton
+        android:id="@+id/circle_button"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:clickable="true"
+        android:src="@mipmap/tianjia" />
+
+</RelativeLayout>
 
 MIT License
 =================================== 
