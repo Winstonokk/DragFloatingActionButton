@@ -3,14 +3,14 @@ package com.barnettwong.dragfloatactionbuttonlibrary.view;
 import android.animation.ObjectAnimator;
 import android.content.Context;
 import android.os.Handler;
-import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.view.ViewGroup;
 import android.view.animation.DecelerateInterpolator;
+import android.widget.ImageView;
 
-public class DragFloatActionButton extends android.support.v7.widget.AppCompatImageView {
+public class DragFloatActionButton extends ImageView {
 
     private int parentHeight;
     private int parentWidth;
@@ -35,14 +35,13 @@ public class DragFloatActionButton extends android.support.v7.widget.AppCompatIm
         super(context);
     }
 
-    public DragFloatActionButton(Context context, @Nullable AttributeSet attrs) {
+    public DragFloatActionButton(Context context,  AttributeSet attrs) {
         super(context, attrs);
     }
 
-    public DragFloatActionButton(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public DragFloatActionButton(Context context,  AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
     }
-
 
     @Override
     public boolean onTouchEvent(MotionEvent event) {
