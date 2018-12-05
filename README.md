@@ -32,7 +32,7 @@ step2:
 
 		dependencies {
 		
-	        	implementation 'com.github.wangfeng19930909:DragFloatingActionButton:v1.0.0'
+	        	implementation 'com.github.wangfeng19930909:DragFloatingActionButton:1.0.1'
 		
 		}
 		
